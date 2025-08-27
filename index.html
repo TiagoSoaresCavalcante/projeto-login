@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-
+    <link rel="stylesheet" href="src/fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.min.css">
     <link rel="stylesheet" href="src/css/estilo.css">
     <link rel="stylesheet" href="src/css/media-query.css">
 </head>
@@ -17,11 +17,33 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e fazer configurações no seu ambiente </p>
-                <form action="" method="post">
-                    <label for="ie-mail">E-mail</label>
-                    <input type="email" name="e-mail" 
-                    id="ie-mail" 
-                    placeholder="Digite seu E-mail">
+                <form action="" method="post" autocomplete="on">
+                    <div class="campo">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="email" 
+                        name="e-mail"
+                        id="ie-mail"
+                        placeholder="Seu E-mail"
+                        autocomplete="email"
+                        required
+                        maxlength="30">
+                        <label for="ie-mail">Login</label>
+                    </div>
+
+                    <div class="campo">
+                        <i class="fa-solid fa-key"></i>
+                        <input type="password" 
+                        name="senha" 
+                        id="isenha" 
+                        placeholder="Sua Senha"
+                        autocomplete="current-password"
+                        required
+                        minlength="8"
+                        maxlength="20">
+                        <label for="isennha">Senha</label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="#">Esqueci a senha <i class="fa-solid fa-envelope"></i></a>
                 </form>
             </div>
         </section>
