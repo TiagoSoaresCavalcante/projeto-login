@@ -71,7 +71,7 @@ form > div.campo{
     height: 40px;
     margin: 6px 0px;
     padding: 4px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 form > div.campo > label{
@@ -89,7 +89,7 @@ form > div.campo > label{
     width: calc(100% - 29px);
     height: 33px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
   }
 
     form > div.campo > input:focus-within{
@@ -103,7 +103,7 @@ form > div.campo > label{
     height: 40px;
     font-size: 1em;
     color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 2px solid #5F2C82;
     cursor: pointer;
 
@@ -123,7 +123,7 @@ form > div.campo > label{
     background-color: #408381;
     color: white;
     margin-top: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 2px solid #5F2C82;
     text-decoration: none;
 }
